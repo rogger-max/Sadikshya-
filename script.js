@@ -9,4 +9,4 @@ function nextSlide() {
 
 function playSong() {
   document.getElementById("song").play();
-}
+} 
