@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+  overflow: hidden;
+}
+
+.slider {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  transition: 0.7s ease;
+}
+
+.slide.active {
+  left: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.quote {
+  font-size: 1.4rem;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.paragraph {
+  font-size: 1.2rem;
+  color: #fff;
+  max-width: 800px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  background: #fff;
+  color: #ff5f7e;
+  cursor: pointer;
+}
+
+.photos {
+  display: flex;
+  gap: 15px;
+  margin: 25px 0;
+}
+
+.photos img {
+  width: 140px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 4px solid #fff;
+}
+
+.question {
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.valentine {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #fff;
+}
