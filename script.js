@@ -1,10 +1,10 @@
-let current = 0;
+let currentSlide = 0;
 const slides = document.querySelectorAll(".slide");
 
 function nextSlide() {
-  slides[current].classList.remove("active");
-  current = (current + 1) % slides.length;
-  slides[current].classList.add("active");
+  slides[currentSlide].classList.remove("active");
+  currentSlide = (currentSlide + 1) % slides.length;
+  slides[currentSlide].classList.add("active");
 }
 
 function playSong() {
